@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Adrián Baker</title>
+<link rel="stylesheet" href="/style.css">
+<script src="validar.js"></script> <!-- Archivo externo de JavaScript para la validación del formulario de contacto-->
+
+</head>
+<body>
+    <header>
+            <p>CV Adrián Baker</p>
+            <nav>
+                <a href="educacion.html">Educación</a> <br>
+                <a href="explab.html">Experiencia Laboral</a> <br>
+                <a href="portfolio.html">Portfolio</a>
+            </nav>
+      </header>
+<main>
+    <section id="sobre_mi"> 
+        <h1> <strong>Adrián Baker</strong> </h1>
+        <img src="CVfoto1.jpg" alt="FotoABaker">
+        <h2>Licenciado en Operaciones y Logistica </h2>
+        <p> <strong>Mis competencias:</strong> 
+            <ul>
+            <li>Planificar, conducir y evaluar organizaciones en los procesos de la cadena de abastecimiento.</li>
+            <li>Planificar, conducir y evaluar proyectos en el ámbito de las operaciones y de la cadena de valor.</li>
+            <li>Diseñar estrategias de gestión de: demanda, distribución, operaciones, abastecimiento y compras.</li>
+            <li>Realizar estudios, sistematizar y evaluar información relativa a la promoción y desarrollo de negocios en Logística y Transporte.</li>
+            <li>Asesorar en gestión de procesos de Operaciones y Logística.</li>                 
+        </ul>
+    </p>
+    </section>
+<br>
+    <section id="educacion">
+        <img src="Educacion.png" style="max-width: 200px; "alt="Educación"> 
+        <h3>Educación</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad aut adipisci dolores nesciunt voluptas veritatis dolorem libero consectetur expedita veniam, eaque inventore sed cupiditate doloribus possimus, pariatur numquam, commodi sit.</p>
+        <a href="educacion.html"><input type="button" class="myButton" value="Más info"></a>
+    </section>
+<br>
+    <section id="explab">
+        <img src="Explab.png" style="max-width: 200px; alt="Educación"> 
+        <h3>Experiencia Laboral</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad aut adipisci dolores nesciunt voluptas veritatis dolorem libero consectetur expedita veniam, eaque inventore sed cupiditate doloribus possimus, pariatur numquam, commodi sit.</p>
+        <a href="explab.html"><input type="button" class="myButton" value="Más info"></a>
+   </section>
+<br>
+   <section id="portfolio">
+            <img src="portfolio.png" style="max-width: 200px; alt="portfolio">
+        <h3>Portfolio</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad aut adipisci dolores nesciunt voluptas veritatis dolorem libero consectetur expedita veniam, eaque inventore sed cupiditate doloribus possimus, pariatur numquam, commodi sit.</p>
+        <a href="portfolio.html"><input type="button" class="myButton" value="Más info"></a>
+    </section>
+</main>
+
+<section id="contacto"> 
+<br>
+<h3>Para que conozcas más sobre mi...</h3>
+<img src="contacto.png" style="max-width: 200px; alt="Contacto">
+<p>Completa el siguiente formulario de contacto y me comunicaré a la brevedad
+    <form id="formulario" onsubmit="return validarFormulario()">
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre" name="nombre" required>
+<br>
+		<label for="apellido">Apellido:</label>
+		<input type="text" id="apellido" name="apellido" >
+<br>
+		<label for="telefono">Teléfono:</label>
+		<input type="text" id="telefono" name="telefono" >
+<br>
+		<label for="correo">Correo Electrónico:</label>
+		<input type="email" id="correo" name="correo" >
+<br>
+		<label for="mensaje">Mensaje:</label>
+		<textarea id="mensaje" name="mensaje" rows="5" ></textarea>
+<br>
+		<input type="submit" class="myButton" value="Enviar">
+	</form></p>
+</section>
+</body>
+    <footer>
+       <p>&copy; CV Adrián Baker 2023 <br>Ultima actualización 31-01-2023</p>
+    </footer>
+</html>

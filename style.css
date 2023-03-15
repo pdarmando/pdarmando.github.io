@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: tahoma, verdana, sans-serif; 
+    margin: 0;
+    background-color: #E7DFd5;
+}
+h1{font-size: 4.0em; color: #204051;} 
+h2{font-size: 3.0em; color: #3B6978;}
+h3{font-size: 2.0em; color: #467b8d  ; text-align: center;}
+p{font-size: 1.5em; color: rgb(65, 64, 64);}
+
+header {
+    background-color: rgba(13, 45, 66, 0.1);
+    border: 3px solid rgba(28,110,164,0.1);
+    text-align: center;
+        } 
+    
+        img {
+            display: block ;
+            margin: auto;
+            max-width: 100%;
+        }
+.myButton {
+    color: rgb(255, 255, 255); font-size: 21px; line-height: 21px; padding: 10px; border-radius: 22px; font-family: Tahoma, Verdana, sans-serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(14, 13, 91) 4px 1px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;
+    align-items: center;}
+
+#sobre_mi {
+background-color: #E7DFd5;
+text-align: center;
+}
+
+li {font-size: 1.5em; text-align: left;
+}
+
+#contacto {
+   background-color: #84A9AC;   
+text-align: center;
+}
+footer {
+    font-size: small;
+    text-align: left;}
